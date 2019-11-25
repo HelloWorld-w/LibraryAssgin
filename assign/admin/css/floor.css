@@ -1,0 +1,117 @@
+/*first_floor.php的css*/
+.content-body>span{
+	font-size: 16px;
+	color: #F56D16;
+}
+.content-table{
+	margin-top: 13px;
+}
+.content-table .content-last{
+	height:50px;
+	font-size: 16px;
+	text-align: left;
+}
+.content-last tr td:nth-child(1){
+	text-align: left;
+}
+.content-last tr td:nth-child(2){
+	text-align: right;
+}
+.content-table2{
+	margin-right: 15px;
+	color: #434444;
+}
+.content-table2 a{
+	color:#6A6C6D;
+}
+.content-table2 a:hover{
+	color: #FA8B23;
+}
+.content-table2 tr td:nth-child(1){
+	width:30px;
+	border:1px solid #6A6C6D;
+}
+.content-table2 tr td:nth-child(2){
+	width:50px;
+	border:1px solid #6A6C6D;
+}
+.content-table2 tr td:nth-child(3){
+	width:50px;
+	border:1px solid #6A6C6D;
+}
+.content-table2 tr td:nth-child(4){
+	width:80px;
+	border:1px solid #6A6C6D;
+}
+.content-table2 tr td{
+	border-collapse: collapse;
+	border:1px solid #000;
+	/*width:60px;*/
+	height:30px;
+}
+
+/*first_floor.php的css结束*/
+
+/*first-floor-insert的strat*/
+.insert{
+	 height: 420px;
+	 width: 40%; 
+	 display: inline-block; 
+	 margin: 20px 10px 0 0;
+	 background: transparent;
+	 box-shadow: 3px -5px 5px #eee;
+}
+.insert table{
+	margin:25px auto 0 auto;
+	height: 340px;
+	width: 70%;
+	border:1px solid #eee;
+}
+.insert table tr th{
+	font-size: 16px;
+	text-align: center;
+	font-weight: normal;
+	height: 13%;
+}
+.insert table input{
+	border:1px solid #ddd;
+	width: 80%;
+}
+.insert tr td:nth-child(2){
+	text-align: left;
+}
+/*first-floor-insert的end*/
+
+/*first-floor-update的start*/
+.update{
+	 height: 220px;
+	 width: 40%; 
+	 /*border-collapse:separate;
+	 border-spacing:0px 8px;*/
+	 /*background: red;*/
+	 margin:20px auto 0 auto;
+}
+.update tr th{
+	font-size: 16px;
+	height:42px;
+	text-indent: 9em;
+	text-align: left;
+}
+.update input{
+	border:1px solid #ddd;
+	width: 60%;
+}
+.update tr td:nth-child(2){
+	text-align: left;
+	width:80%;
+}
+.update tfoot tr td{
+	text-align: left;
+	text-indent: 8em;
+}
+.update tfoot tr td input{
+	width: 40%;
+}
+
+
+	

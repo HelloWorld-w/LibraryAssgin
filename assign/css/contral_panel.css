@@ -1,0 +1,10 @@
+.content-content{
+	background: transparent;
+	box-shadow: 2px 2px 8px #ccc;
+	width:30%;
+	height:60%;
+	margin-right: 8px;
+	margin-left: 25px;
+	display: inline-block;
+	float: left;
+}

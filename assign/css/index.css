@@ -1,0 +1,239 @@
+/*头部*/
+body{
+	height:auto;
+	background: #F4F7F8;
+}
+.navbar-header{
+	background:url(../images/logo.png) 10% center no-repeat;
+	width:420px;
+}
+#navbar-body{
+	background:#2DDFE8;
+	margin-bottom: 0px;
+}
+.navbar-header a .h1{
+	text-indent:4em;
+	font-size: 16px;
+	color: #fff;
+	margin: 0px;
+}
+#navbar-glyphicon{
+	background-color:transparent;
+	margin:5px 0 0 -5px;
+	padding:7px 0 0 0;
+	color: #fff;
+	height:40px;
+	width: 30px;
+	border:none;
+	font-size: 18px;
+	}
+#navbar-glyphicon:hover{
+	font-size: 16px;
+	box-shadow: 5px 8px 8px #999;
+}
+.navbar-toggle{
+	float:none;
+}
+/*头部ending*/
+
+/*用户注册*/
+#navbar-body>.navbar-account{
+	width: auto;
+	margin-right: 24px;
+	height:49px;
+	line-height: 49px;
+	display: inline-block;
+	float: right;
+}
+#navbar-body .navbar-account span>a{
+	color: #000;
+}
+/*left content*/
+#container-main{
+	padding-left:0px;
+}
+.page-container .page-sidebar{
+	box-shadow:1px 3px 8px #ccc;
+	position: absolute;
+	width: 16%;
+	height:81% !important;
+}
+.navbar-collapse{
+	padding:0 0 0 0;
+}
+.panel-collapse>.panel-head{
+	background: #fff;
+	box-shadow:1px 1px 3px #eee;
+	border-radius: none;
+	padding:0px;
+}
+.panel-collapse .panel-head h4>a{
+	display:block;
+	padding:10px 15px;
+}
+.page-sidebar .panel-group>.panel-collapse{
+	margin-bottom: 1px;
+}
+.panel-body{
+	padding:2px 0 0 0;
+}
+.panel-body>.list-modify{
+	margin-bottom: 2px;
+}
+.panel-body .list-modify>a{
+	border:none;
+	text-indent: 1em;
+}
+.panel-body .list-modify>hr{
+	margin:1px;
+}
+/*end left content*/
+
+/*start breadcrumb*/
+.breadcrumb{
+	padding:8px 0 8px 15px;
+	background:#eee;
+	margin:5px 0 8px 0;
+}
+/*end breadcrumb*/
+/* right content*/
+#container-main .page-content{
+	position: absolute;
+	left: 18%;
+	padding-left:8px;
+	width: 82%;
+	height:83%;
+}
+.page-content >.content-header{
+	box-shadow: 1px 3px 8px #eee;
+}
+.page-content .container-fluid > .nav-header{
+	height:38px;
+	line-height: 38px;
+}
+.page-content>.content-body{
+	text-align: center;
+	height:85%;
+}
+.page-content .content-body>p{
+	font-size:22px;
+	line-height: 160%;
+}
+/*end right content*/
+/*footer*/
+#footer-modify{
+	height:10%;
+	background:#ddd;
+	text-align: center;
+	font-size:14px;
+}
+#footer-modify p{
+	margin:0px;
+	padding-top: 0px;
+}
+#footer-modify a{
+	color:#333;
+}
+/*end footer*/
+@media(min-width: 200px){
+	/*搜索框隐藏*/
+	#search-hidden{
+			display: none;
+		}
+	.page-container .page-sidebar{
+	box-shadow:1px 3px 8px #ccc;
+	position: absolute;
+	width: 16%;
+	height:83% !important;
+	}
+	.navbar-header a .h1{
+	text-indent:5em;
+	font-size: 16px;
+	color: #fff;
+	margin: 0px;
+	}
+	.panel-body .list-modify>a{
+		border:none;
+		text-indent: 5px;
+	}
+}
+@media(min-width: 768px){
+	.navbar-header a .h1{
+		text-indent: 5em;
+		font-size: 16px;
+	}
+	.page-container .page-sidebar{
+	box-shadow:1px 3px 8px #ccc;
+	position: absolute;
+	width: 18%;
+	height:83% !important;
+	}
+	#footer-modify p{
+	margin:0px;
+	padding-top:18px;
+	}
+	.page-content .content-body>p{
+		font-size:22px;
+		line-height: 160%;
+	}
+	#search-hidden{
+		display: block;
+	}
+	.panel-body .list-modify>a{
+		border:none;
+		text-indent:2em;
+	}
+}
+@media(min-width: 992px){
+	.navbar-header a .h1{
+		text-indent: 4em;
+		font-size: 18px;
+	}
+	.page-container .page-sidebar{
+	box-shadow:1px 3px 8px #ccc;
+	position: absolute;
+	width: 18%;
+	height:81% !important;
+	}
+	#footer-modify p{
+		margin:0px;
+		padding-top:0px;
+	}
+	.page-content .content-body>p{
+		font-size:24px;
+		line-height: 160%;
+	}
+	#search-hidden{
+		display: block;
+	}
+	.panel-body .list-modify>a{
+		border:none;
+		text-indent:2em;
+	}
+}
+@media(min-width: 1200px){
+	.navbar-header a .h1{
+		font-size: 20px;
+	}
+	.page-container .page-sidebar{
+	box-shadow:1px 3px 8px #ccc;
+	position: absolute;
+	width: 18%;
+	height:81% !important;
+	}
+	#footer-modify p{
+	margin:0px;
+	padding-top:0px;
+	}
+	.page-content .content-body>p{
+		font-size:26px;
+		line-height: 160%;
+	}
+	#search-hidden{
+		display:block;
+	}
+	.panel-body .list-modify>a{
+		border:none;
+		text-indent:2em;
+	}
+}

@@ -1,0 +1,32 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url(../images/register.jpg);
+	background-size:100%;
+}
+a{
+	color: #000;
+}
+.modal-content-modity{
+	background: transparent;
+	margin:60px 0 0 0;
+}
+.register-form{
+	font-size: 16px;
+	margin:0px auto;
+	width:330px;
+	line-height: 180%;
+}
+.register-form label{
+	width:6em;
+	display: inline-block;
+	text-align-last: justify;
+}
+.inputt{
+	width:95px;
+}
+#faceimg{
+	margin:2px 0 4px 0px;
+}

@@ -1,0 +1,76 @@
+/*control-panel.php样式开始*/
+.control_panel{
+	border:1px solid #eee;
+}
+.control_panel tr th{
+	height:42px;
+	text-align: center;
+	border:1px solid #eee;
+}
+.control_panel tfoot tr{
+	height:48px;
+}
+.control_panel tr td{
+	text-align: center;
+	border:1px solid #eee;
+	height:38px;
+}
+.control_panel tr td:nth-child(1){
+	width: 15%;
+}
+.control_panel tr td:nth-child(3){
+	width: 70%;
+}
+/*control-panel.php样式end*/
+
+/*control_update.php 和
+control_insert.php strat*/
+.control_update{
+	width: 80%;
+	margin:15px auto 0 auto;
+}
+.control_update{
+	width:80%;
+	border-collapse:separate;
+	border-spacing:0px 10px;
+}
+.control_update tr th{
+	font-size: 16px;
+	height:42px;
+	text-indent: 24em;
+	text-align: left;
+}
+.control_update tfoot tr td{
+	height:48px;
+	text-align: left;
+	text-indent: 14em;
+}
+.control_update tfoot tr td input{
+	width: 45%;
+}
+.control_update tr td{
+	height:38px;
+}
+.control_update tr td:nth-child(1){
+	width: 10%;
+}
+.control_update tr td:nth-child(2){
+	text-align: left;
+	width: 70%;
+}
+.control_update tr td:nth-child(2) input{
+	border:1px solid #ddd;
+	height:100%;
+	width: 70%;
+}
+.control_update tr:nth-child(3){
+	text-align: center;
+	height:120px;
+}
+.control_update textarea{
+	border:1px solid #ddd;
+	height:120px;
+	width: 70%;
+}
+
+

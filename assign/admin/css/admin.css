@@ -1,0 +1,110 @@
+.page-content p{
+	background:#F9F9F9 url(../images/admin_bg.png) no-repeat left center;
+	width:80%;
+	height:44px;
+	line-height: 46px;
+	text-indent: 1em;
+}
+.page-content table{
+	width:80%;
+}
+.page-content table tr td{
+	height:40px;
+}
+/*super_admin的样式*/
+.super_admin{
+	border:1px solid #D4D1D1;
+	text-align: center;
+}
+.super_admin tr th{
+	border:1px solid #D4D1D1;
+	height:38px;
+	background: #E9E6E6;
+	text-align: center;
+}
+.super_admin tr td{
+	border:1px solid #D4D1D1;
+}
+/*添加管理员样式*/
+table.add_super{
+	border-collapse:separate;
+	border-spacing:0px 10px;
+}
+.add_super tr td:nth-child(1){
+	text-align: right;
+}
+.add_super tr td:nth-child(2){
+	width:86%;
+	text-align: right;
+	vertical-align: top;
+}
+.add_super tr td:nth-child(2) input{
+	height: 90%;
+	width:98%;
+	border:1px solid #F2EFEF;
+}
+.btn_super{
+	margin:25px 0 0 150px;
+}
+.btn_super2{
+	margin:25px 0 0 0;
+}
+/*添加管理员*/
+table.add_admin{
+	border-collapse:separate;
+	border-spacing:0px 10px;
+}
+.add_admin tr td:nth-child(1){
+	text-align: right;
+}
+.add_admin tr td:nth-child(2){
+	width:84%;
+	text-align: right;
+	vertical-align: top;
+}
+.add_admin tr td:nth-child(2) input{
+	height: 90%;
+	width:98%;
+	border:1px solid #F2EFEF;
+}
+.add_admin tr:nth-child(4) td:nth-child(2){
+	padding-right: 70%;
+}
+.add_admin tr:nth-child(4) td input{
+	margin-top:35%;
+	width:40%;
+}
+#faceimg{
+	padding-right:90%;
+}
+/*修改管理员*/
+table.update_admin{
+	border-collapse:separate;
+	border-spacing:0px 10px;
+}
+.update_admin tr td:nth-child(1){
+	text-align: right;
+}
+.update_admin tr td:nth-child(2){
+	width:84%;
+	text-align: right;
+	vertical-align: top;
+}
+.update_admin tr td:nth-child(2) input{
+	height: 90%;
+	width:98%;
+	border:1px solid #F2EFEF;
+}
+.update_admin tr:nth-child(2){
+
+}
+.update_admin tr:nth-child(2) td:nth-child(2){
+	padding-right: 70%;
+}
+.update_admin tr:nth-child(2) td input{
+	margin-top:35%;
+	width:40%;
+}
+#faceimg{
+	padding-right:90%;
+}

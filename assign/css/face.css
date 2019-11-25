@@ -1,0 +1,22 @@
+h3{
+	text-align: center;
+}
+body{
+	margin:0 auto;
+}
+.face{
+	width:80%;
+	margin:0 auto;
+}
+.face dl{
+	background:red;
+}
+.face dl dd{
+	border:1px solid red;
+	width:70px;
+	height:60px;
+	padding:10px 0 0 0;
+	margin:5px 2px 0 0;
+	float: left;
+	text-align:center;
+}
